@@ -1,0 +1,25 @@
+html, body {
+    font-family: serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+#bar{
+    padding: 0px 20px 0px 20px;
+    background-color: black;
+    float: top;
+    line-height: 80px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#nypl{
+  color: black;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
