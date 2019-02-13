@@ -1,0 +1,81 @@
+html, body, p {
+  margin: 0;
+  padding: 0;
+}
+
+#border {
+  height: 20vh;
+  width: 20vh;
+  background-color: transparent;
+  border: 5px solid transparent;
+  transform: rotate(46deg);
+  margin-left: 50vh;
+  margin-top: 50vh;
+  z-index: 70;
+}
+
+#triangle{
+   width: 0;
+   height: 0;
+   border-left: 6vh solid transparent;
+   border-right: 6vh solid transparent;
+   border-bottom: 10vh solid #663695;
+   z-index: 20;
+   margin-left: 37vh;
+   margin-top: -30vh;
+ }
+
+ #triangle2{
+   width: 0;
+   height: 0;
+   border-left: 6vh solid transparent;
+   border-right: 6vh solid transparent;
+   border-bottom: 10vh solid #663695;
+   z-index: 30;
+   margin-left: 45vh;
+   margin-top: -10vh;
+ }
+
+ #triangle-down {
+       width: 0;
+       height: 0;
+       border-left: 10vh solid transparent;
+       border-right: 10vh solid transparent;
+       border-top: 14vh solid #663695;
+       z-index: 20;
+       margin-left: 37vh;
+       margin-top: 0vh;
+     }
+
+#triangle-inside{
+        width: 0;
+        height: 0;
+        border-left: 4vh solid transparent;
+        border-right: 4vh solid transparent;
+        border-bottom: 7vh solid white;
+        z-index: 40;
+        margin-left: 39vh;
+        margin-top: -21vh;
+      }
+
+#triangle2-inside{
+        width: 0;
+        height: 0;
+        border-left: 4vh solid transparent;
+        border-right: 4vh solid transparent;
+        border-bottom: 7vh solid white;
+        margin-left: 47vh;
+        margin-top: -7vh;
+        z-index: 40;
+      }
+
+#triangle-down-inside {
+            width: 0;
+            height: 0;
+            border-left: 8vh solid transparent;
+            border-right: 8vh solid transparent;
+            border-top: 11vh solid white;
+            z-index: 40;
+            margin-left: 39vh;
+            margin-top: 0vh;
+          }
