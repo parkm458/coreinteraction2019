@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    <title>Underground Busking</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <style>
+
+  @import url(https://fonts.googleapis.com/css?family=Candal);
+  @import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
+
+    :root {
+    font-size: 30px;
+    --fullGrid: 1 / 1 / -1 / -1;
+}
+
+.container {
+    position:absolute;
+    text-align: center;
+}
+
+.container video {
+    position:relative;
+    z-index:0;
+    text-align: center;
+    display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:999999;
+    font-family: 'Mr Dafoe', cursive;
+    color: #ffd300;
+    line-height: 30px;
+}
+
+#anthem {
+  text-shadow: 2px 2px black;
+  letter-spacing: 3px;
+  -webkit-text-stroke: .1px;
+}
+.overlay #anthem {
+  position: relative;
+  font-size: 30px;
+  top: 124.5px;
+  left: 1245px;
+  transform: rotateZ(9deg);
+}
+
+#luckychops {
+  text-shadow: 2px 2px black;
+  letter-spacing: 3px;
+  -webkit-text-stroke: .1px;
+}
+
+
+.overlay #luckychops {
+  position: relative;
+  font-size: 30px;
+  top: 930px;
+  left: 440px;
+  transform: rotateZ(-9deg);
+}
+
+.overlay a {
+  font-family: helvetica;
+  font-size: 15px;
+  color: #ffd300;
+}
+
+.overlay .luckychops-url {
+  position: relative;
+  top: 1220px;
+  left: 780px;
+}
+
+#hozier {
+  text-shadow: 2px 2px black;
+  letter-spacing: 3px;
+  -webkit-text-stroke: .1px;
+}
+
+
+.overlay #hozier {
+  position: relative;
+  font-size: 30px;
+  top: 1000px;
+  left: 1350px;
+}
+
+.overlay .hozier-url {
+  position: relative;
+  top: 884px;
+  left: 1000px;
+  transform: rotateZ(-90deg);
+}
+
+#performers {
+  text-shadow: 2px 2px black;
+  letter-spacing: 3px;
+  -webkit-text-stroke: .1px;
+}
+
+
+.overlay #performers {
+  position: relative;
+  font-size: 30px;
+  top: 1150px;
+  left: 500px;
+  transform: rotateZ(20deg);
+}
+
+.overlay .performers-url {
+  position: relative;
+  top: 1410px;
+  left: 190px;
+}
+
+#grindingnyc {
+  text-shadow: 2px 2px black;
+  letter-spacing: 3px;
+  -webkit-text-stroke: .1px;
+}
+
+
+.overlay #grindingnyc {
+  position: relative;
+  font-size: 30px;
+  top: 80px;
+  left: 1050px;
+}
+
+.overlay .grindingnyc-url {
+  position: relative;
+  top: 370px;
+  left: 1050px;
+}
+
+#halo {
+  text-shadow: 2px 2px black;
+  letter-spacing: 3px;
+  -webkit-text-stroke: .1px;
+}
+
+
+.overlay #halo {
+  position: relative;
+  font-size: 30px;
+  top: 1800px;
+  left: 150px;
+}
+
+.overlay .halo-url {
+  position: relative;
+  top: 2100px;
+  left: 350px;
+}
+
+#damiyr {
+  text-shadow: 2px 2px black;
+  letter-spacing: 3px;
+  -webkit-text-stroke: .1px;
+}
+
+
+.overlay #damiyr {
+  position: relative;
+  font-size: 30px;
+  top: 1800px;
+  left: 1450px;
+  transform: rotateZ(17deg);
+}
+
+.overlay .damiyr-url {
+  position: relative;
+  top: 1620px;
+  left: 900px;
+}
+
+#mj {
+  text-shadow: 2px 2px black;
+  letter-spacing: 3px;
+  -webkit-text-stroke: .1px;
+}
+
+
+.overlay #mj {
+  position: relative;
+  font-size: 30px;
+  top: 2020px;
+  left: 300px;
+  transform: rotateZ(-10deg);
+}
+
+.overlay .mj-url {
+  position: relative;
+  top: 2300px;
+  left: 540px;
+}
+
+#keys {
+  text-shadow: 2px 2px black;
+  letter-spacing: 3px;
+  -webkit-text-stroke: .1px;
+}
+
+
+.overlay #keys {
+  position: relative;
+  font-size: 30px;
+  top: 2350px;
+  left: 150px;
+}
+
+.overlay .keys-url {
+  position: relative;
+  top: 2650px;
+  left: 450px;
+}
+
+#twin {
+  text-shadow: 2px 2px black;
+  letter-spacing: 3px;
+  -webkit-text-stroke: .1px;
+}
+
+
+.overlay #twin {
+  position: relative;
+  font-size: 30px;
+  top: 2250px;
+  left: 1200px;
+  transform: rotateZ(10deg);
+}
+
+.overlay .twin-url {
+  position: relative;
+  top: 2520px;
+  left: 1100px;
+}
+
+  </style>
+  </head>
+
+  <body>
+  <div class="container">
+    <video controls autoplay>
+      <source src="2.mov" type="video/mp4">
+    </video>
+    <video controls autoplay>
+      <source src="1.mov" type="video/mp4">
+    </video>
+    <video controls autoplay>
+      <source src="4.mov" type="video/mp4">
+    </video>
+    <video controls autoplay>
+      <source src="3.mov" type="video/mp4">
+    </video>
+    <video controls autoplay>
+      <source src="5.mp4" type="video/mp4">
+    </video>
+    <video controls autoplay>
+      <source src="6.mov" type="video/mp4">
+    </video>
+    <video controls autoplay>
+      <source src="7.mp4" type="video/mp4">
+    </video>
+    <video controls autoplay>
+      <source src="8.mp4" type="video/mp4">
+    </video>
+    <video controls autoplay>
+      <source src="9.mp4" type="video/mp4">
+    </video>
+    <video controls autoplay>
+      <source src="10.mov" type="video/mp4">
+    </video>
+    <video controls autoplay>
+      <source src="11.mov" type="video/mp4">
+    </video>
+    <video controls autoplay>
+      <source src="12.mp4" type="video/mp4">
+    </video>
+    <video controls autoplay>
+      <source src="13.mp4" type="video/mp4">
+    </video>
+    <video controls autoplay>
+      <source src="14.mp4" type="video/mp4">
+    </video>
+    <video controls autoplay>
+      <source src="15.mp4" type="video/mp4">
+    </video>
+    <video controls autoplay>
+      <source src="16.mp4" type="video/mp4">
+    </video>
+    <video controls autoplay>
+      <source src="17.mp4" type="video/mp4">
+    </video>
+    <video controls autoplay>
+      <source src="18.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div class="overlay">
+    <p id="anthem">Korean National Anthem</p>
+    <p id="luckychops">Lucky Chops <br>    - Funkytown / I Feel Good</p>
+    <a href="https://www.youtube.com/watch?v=dYhpuMAjghA"><p class="luckychops-url">https://www.youtube.com/watch?v=dYhpuMAjghA</p></a>
+    <p id="hozier">Hozier <br>    - Almost (Sweet Music)</p>
+    <a href="https://www.youtube.com/watch?v=WujkMhUqHuM"><p class="hozier-url">https://www.youtube.com/watch?v=WujkMhUqHuM</p></a>
+    <p id="performers">SUBWAY PERFORMERS NYC</p>
+    <a href="https://www.youtube.com/watch?v=skZm2OzEu1I"><p class="performers-url">https://www.youtube.com/watch?v=skZm2OzEu1I</p></a>
+    <p id="grindingnyc">grindingnyc</p>
+    <a href="https://www.youtube.com/watch?v=jMe6Y8GDVEI"><p class="grindingnyc-url">https://www.youtube.com/watch?v=jMe6Y8GDVEI</p></a>
+    <p id="halo">Beyonce - Halo - Silvia Jhony</p>
+    <a href="https://www.youtube.com/watch?v=CHRpZ4c1PzY"><p class="halo-url">https://www.youtube.com/watch?v=CHRpZ4c1PzY</p></a>
+    <p id="damiyr">DAMIYR</p>
+    <a href="https://www.youtube.com/watch?v=CHRpZ4c1PzY"><p class="damiyr-url">https://www.youtube.com/watch?v=CHRpZ4c1PzY</p></a>
+    <p id="mj">Michael Jackson</p>
+    <a href="https://www.youtube.com/watch?v=MOgqW7G5tJI"><p class="mj-url">https://www.youtube.com/watch?v=MOgqW7G5tJI</p></a>
+    <p id="keys">Alicia Keys - If I Ain't Got You</p>
+    <a href="https://www.youtube.com/watch?v=25ez0qdN6VY"><p class="keys-url">https://www.youtube.com/watch?v=25ez0qdN6VY</p></a>
+    <p id="twin">Twin Sensation from New York</p>
+    <a href="https://www.youtube.com/watch?v=HBdgUVE9Hn0"><p class="twin-url">https://www.youtube.com/watch?v=HBdgUVE9Hn0</p></a>
+  </div>
+  </body>
+
+</html>
