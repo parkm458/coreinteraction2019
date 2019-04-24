@@ -5,7 +5,7 @@ var doc = $(document);
 var width = doc.width()-100;
 var height = doc.height()-100;
 
-var shapes = [ $(".circle"), $(".triangle"), $(".square")]
+var shapes = [ $(".circle1"), $(".circle2"), $(".circle3"), $(".circle4")]
 
 
 function randomStuff(){
@@ -16,12 +16,7 @@ clone.last().css('left', Math.random() * width)
 clone.last().css('top', Math.random() * height)
 }
 randomStuff();
-
-
-
 setInterval(function(){
 randomStuff()
-
 },100)
-
 })
