@@ -1,0 +1,227 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#whole2 {
+  width:300px;
+  height:auto;
+  left:50px;
+  top:500px;
+  position: absolute;
+  animation-delay: 12s;
+  animation:
+    scene2 27s forwards;
+}
+
+@keyframes scene2 {
+  0%   {opacity: 0; display:none;}
+  30%   {opacity: 0;}
+  40%   {opacity: 100;}
+  90%   {opacity: 100;}
+  97% {opacity: 0;}
+  100%  {opacity: 0;}
+}
+
+
+
+#tt1 {
+  z-index:999;
+  left:50px;
+  top:500px;
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation:
+  appear 11s forwards,
+  move 16s forwards,
+  up 27s forwards;
+animation-delay: 0s, 8s, 25s;
+}
+
+#tt2 {
+  z-index:999;
+  left:50px;
+  top:500px;
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation:
+  appear 11s forwards,
+  move 16s forwards,
+  up 27s forwards;
+animation-delay: 0s, 8s, 25s;
+}
+
+#tt3 {
+  z-index:999;
+  left:50px;
+  top:500px;
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation:
+  appear 11s forwards,
+  move 16s forwards,
+  up 27s forwards;
+animation-delay: 0s, 8s, 25s;
+}
+
+#tt4 {
+  z-index:999;
+  left:50px;
+  top:500px;
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation:
+  appear 11s forwards,
+  move 16s forwards,
+  up 27s forwards;
+animation-delay: 0s, 8s, 25s;
+}
+
+#tt5 {
+  z-index:999;
+  left:50px;
+  top:500px;
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation:
+  appear 11s forwards,
+  move 16s forwards,
+  up 27s forwards;
+animation-delay: 0s, 8s, 25s;
+}
+
+#tt6 {
+  z-index:999;
+  left:50px;
+  top:500px;
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation:
+  appear 11s forwards,
+  move 16s forwards,
+  up 27s forwards;
+  animation-delay: 0s, 8s, 25s;
+}
+
+#tt7 {
+  z-index:999;
+  left:50px;
+  top:500px;
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation:
+  appear 11s forwards,
+  move 16s forwards,
+  up 27s forwards;
+animation-delay: 0s, 8s, 25s;
+}
+
+#tt8 {
+  z-index:999;
+  left:50px;
+  top:500px;
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation:
+  appear 11s forwards,
+  move 16s forwards,
+  up 27s forwards;
+animation-delay: 0s, 8s, 25s;
+}
+
+#tt9 {
+  z-index:999;
+  left:50px;
+  top:500px;
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation:
+  appear 11s forwards,
+  move 16s forwards,
+  up 27s forwards;
+animation-delay: 0s, 8s, 25s;
+}
+
+#tt10 {
+  z-index:999;
+  left:50px;
+  top:500px;
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation:
+  appear 11s forwards,
+  move 16s forwards,
+  up 27s forwards;
+animation-delay: 0s, 8s, 25s;
+}
+
+#tt11 {
+  z-index:999;
+  left:50px;
+  top:500px;
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation:
+  appear 11s forwards,
+  move 16s forwards,
+  up 27s forwards;
+animation-delay: 0s, 8s, 25s;
+}
+
+#tt12 {
+  z-index:999;
+  left:50px;
+  top:500px;
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation:
+  appear 11s forwards,
+  move 16s forwards,
+  up 27s forwards;
+animation-delay: 0s, 8s, 25s;
+}
+
+#tt13 {
+  z-index:999;
+  left:50px;
+  top:500px;
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation:
+    appear 11s forwards,
+    move 16s forwards,
+    up 27s forwards;
+  animation-delay: 0s, 8s, 25s;
+}
+
+@keyframes appear {
+  0%   {opacity: 0; display:none;}
+  80%   {opacity: 0;}
+  100% {opacity: 100;}
+}
+
+@keyframes move {
+  0%   {left:0px; top: 0px;}
+  20%   {left:0px; top: 0px;}
+  90%   {left:50px; top: 500px;}
+}
+
+@keyframes up {
+  0%   {left:50px; top: 500px;}
+  10%   {left:50px; top: 500px;}
+  90%   {left:50px; top: -300px;}
+  100%  {left:100px; top: -300px;}
+}

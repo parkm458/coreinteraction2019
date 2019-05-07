@@ -1,0 +1,223 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+
+#whole1 {
+  width:300px;
+  height:auto;
+  top:0;
+  left:0;
+  position: absolute;
+  animation: whole1 10s forwards;
+}
+
+@keyframes whole1 {
+  0%   {opacity: 100;}
+  80%   {opacity: 100;}
+  100% {opacity: 0; display:none;}
+}
+
+
+.pieces1Disappear {
+  width:300px;
+  height:300.27px;
+  padding:0;
+  margin:0;
+  top:0;
+  left:0;
+  position: absolute;
+  animation-delay: 10s;
+  animation: pieces1-disappear 12s forwards;
+}
+
+@keyframes pieces1-disappear {
+  0%   {opacity: 100;}
+  80%   {opacity: 100;}
+  100% {opacity: 0; display:none;}
+}
+
+#t1 {
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation-name: t1;
+  animation-duration: 6s;
+}
+
+@keyframes t1 {
+  0%   {left:30px; top:150px;}
+  20%  {left:30px; top:150px;}
+  90% {left:0; top:0;}
+}
+
+#t2 {
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation-name: t2;
+  animation-duration: 6s;
+}
+
+@keyframes t2 {
+  0%   {left:-100px; top:200px;}
+  20%  {left:-100px; top:200px;}
+  90% {left:0; top:0;}
+}
+
+#t3 {
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation-name: t3;
+  animation-duration: 6s;
+}
+
+@keyframes t3 {
+  0%   {left:0px; top:500px;}
+  20%  {left:0px; top:500px;}
+  100% {left:0; top:0;}
+}
+
+#t4 {
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation-name: t4;
+  animation-duration: 6s;
+}
+
+@keyframes t4 {
+  0%   {left:140px; top:300px;}
+  20%  {left:140px; top:300px;}
+  100% {left:0; top:0;}
+}
+
+
+#t5 {
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation-name: t5;
+  animation-duration: 6s;
+}
+
+@keyframes t5 {
+  0%   {left:80px; top:200px;}
+  20%  {left:80px; top:200px;}
+  100% {left:0; top:0;}
+}
+
+#t6 {
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation-name: t6;
+  animation-duration: 6s;
+}
+
+@keyframes t6 {
+  0%   {left:-100px; top:420px;}
+  20%  {left:-100px; top:420px;}
+  100% {left:0; top:0;}
+}
+
+#t7 {
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation-name: t7;
+  animation-duration: 6s;
+}
+
+@keyframes t7 {
+  0%   {left:70px; top:200px;}
+  20%  {left:70px; top:200px;}
+  100% {left:0; top:0;}
+}
+
+#t8 {
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation-name: t8;
+  animation-duration: 6s;
+}
+
+@keyframes t8 {
+  0%   {left:70px; top:450px;}
+  20%  {left:70px; top:450px;}
+  100% {left:0; top:0;}
+}
+
+#t9 {
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation-name: t9;
+  animation-duration: 6s;
+}
+
+@keyframes t9 {
+  0%   {left:120px; top:400px;}
+  20%  {left:120px; top:400px;}
+  100% {left:0; top:0;}
+}
+
+#t10 {
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation-name: t10;
+  animation-duration: 6s;
+}
+
+@keyframes t10 {
+  0%   {left:70px; top:300px;}
+  20%  {left:70px; top:300px;}
+  100% {left:0; top:0;}
+}
+
+#t11 {
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation-name: t11;
+  animation-duration: 6s;
+}
+
+@keyframes t11 {
+  0%   {left:0; top:600px;}
+  20%  {left:0; top:600px;}
+  100% {left:0; top:0;}
+}
+
+#t12 {
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation-name: t12;
+  animation-duration: 6s;
+}
+
+@keyframes t12 {
+  0%   {left:290px; top:-50px;}
+  20%  {left:290px; top:-50px;}
+  100% {left:0; top:0;}
+}
+
+
+#t13 {
+  width:300px;
+  height:auto;
+  position:absolute;
+  animation-name: t13;
+  animation-duration: 6s;
+}
+
+@keyframes t13 {
+  0%   {left:90px; top:130px;}
+  20%  {left:90px; top:130px;}
+  100% {left:0; top:0;}
+}
